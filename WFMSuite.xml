@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WFMSuite">
+	<test name="TestWFMActivationFlow">
+		<classes>
+			<class name="com.testScripts.WFMScenario"></class>
+			<parameter name="TestcaseNo" value="1"></parameter>
+		</classes>
+	</test>
+</suite>

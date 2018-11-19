@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel]" parallel="tests">
+  <test name="Spicejet Results(failed)" parallel="tests">
+    <classes>
+      <class name="spicejet_TestNG.SpicejetSearch">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- spicejet_TestNG.SpicejetSearch -->
+      <class name="spicejet_TestNG.AjaxControl">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- spicejet_TestNG.AjaxControl -->
+      <class name="hms_testNG.HMSPR_testNG">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- hms_testNG.HMSPR_testNG -->
+    </classes>
+  </test> <!-- Spicejet Results(failed) -->
+</suite> <!-- Failed suite [Parallel] -->

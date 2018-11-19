@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="GoogleChrome REsults(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="spicejet_TestNG.SpicejetSearch">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- spicejet_TestNG.SpicejetSearch -->
+    </classes>
+  </test> <!-- GoogleChrome REsults(failed) -->
+  <test name="IE REsults(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="spicejet_TestNG.SpicejetSearch">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- spicejet_TestNG.SpicejetSearch -->
+    </classes>
+  </test> <!-- IE REsults(failed) -->
+</suite> <!-- Failed suite [Test] -->
